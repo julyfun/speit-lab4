@@ -1,6 +1,6 @@
 enum { MAX_LEN = (int)2e5 + 10 };
 
-extern const char[][50] FUNC_NAMES;
+extern const char FUNC_NAMES[][50];
 void (*FUNC[5])(int arr[], int len);
 
 void rand_num(int arr[], int dim, int range);
